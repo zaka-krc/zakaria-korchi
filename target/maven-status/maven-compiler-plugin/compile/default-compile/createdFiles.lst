@@ -1,0 +1,9 @@
+be/ehb/zakaria_korchi/controller/AboutController.class
+be/ehb/zakaria_korchi/model/Event.class
+be/ehb/zakaria_korchi/controller/DetailsController.class
+be/ehb/zakaria_korchi/model/EventDAO.class
+be/ehb/zakaria_korchi/controller/LocationDAO.class
+be/ehb/zakaria_korchi/controller/IndexController.class
+be/ehb/zakaria_korchi/controller/EventController.class
+be/ehb/zakaria_korchi/ZakariaKorchiApplication.class
+be/ehb/zakaria_korchi/model/Location.class

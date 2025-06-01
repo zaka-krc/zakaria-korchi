@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Over Ons - Anderlecht Community NGO</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" th:href="@{/}">Anderlecht Community NGO</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/new}">Nieuw Evenement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/locations}">Locaties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" th:href="@{/about}">Over Ons</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container mt-4">
+    <h1>Over Anderlecht Community NGO</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Onze Missie</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+            <h3>Wat Wij Doen</h3>
+            <ul>
+                <li>Gemeenschapsbouwen in Anderlecht</li>
+                <li>Hulp aan mensen die het minder breed hebben</li>
+                <li>Organiseren van educatieve evenementen</li>
+                <li>Faciliteren van sociale activiteiten</li>
+                <li>Ondersteuning van lokale initiatieven</li>
+            </ul>
+
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Contact Informatie</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Adres:</strong><br>
+                        Gemeenteplein 1<br>
+                        1070 Anderlecht<br>
+                        België</p>
+
+                    <p><strong>Telefoon:</strong><br>
+                        +32 2 123 45 67</p>
+
+                    <p><strong>Email:</strong><br>
+                        <a href="mailto:info@anderlechtcommunity.be">info@anderlechtcommunity.be</a></p>
+
+                    <p><strong>Website:</strong><br>
+                        <a href="https://www.anderlechtcommunity.be">www.anderlechtcommunity.be</a></p>
+                </div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h5>Openingsuren</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Maandag - Vrijdag:</strong><br>
+                        09:00 - 17:00</p>
+
+                    <p><strong>Weekend:</strong><br>
+                        Gesloten</p>
+
+                    <p><em>Voor evenementen zijn we ook buiten deze uren beschikbaar.</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container">
+        <p>&copy; 2025 Anderlecht Community NGO. Alle rechten voorbehouden.</p>
+    </div>
+</footer>
+</body>
+</html>
